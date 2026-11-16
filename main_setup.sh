@@ -112,26 +112,6 @@ echo "--- done setup_tmux ---"
 echo ""
 echo ""
 
-echo "--- start setup_rust ---"
-date
-source "$HOME/.bashrc"
-cd ./setup_rust
-bash setup_rust.sh
-cd "$HOME/Desktop/Git/setups"
-echo "--- done setup_rust ---"
-echo ""
-echo ""
-
-echo "--- start setup_helix ---"
-date
-source "$HOME/.bashrc"
-cd ./setup_helix
-bash setup_helix.sh
-cd "$HOME/Desktop/Git/setups"
-echo "--- done setup_helix ---"
-echo ""
-echo ""
-
 echo "--- start setup_nvm_npm ---"
 date
 source "$HOME/.bashrc"
